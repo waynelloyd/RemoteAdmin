@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "remadm", "..\remadmxp\remadmxp.vdproj", "{6D7D8BF9-C5A6-4D8A-A3DB-C121A129F0B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RemoteAdmin", "RemoteAdmin.vbproj", "{73FC7D77-7D9C-4845-AD83-0BD0C4A9AAAB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6D7D8BF9-C5A6-4D8A-A3DB-C121A129F0B3}.Debug.ActiveCfg = Debug
+		{6D7D8BF9-C5A6-4D8A-A3DB-C121A129F0B3}.Release.ActiveCfg = Release
+		{73FC7D77-7D9C-4845-AD83-0BD0C4A9AAAB}.Debug.ActiveCfg = Debug|.NET
+		{73FC7D77-7D9C-4845-AD83-0BD0C4A9AAAB}.Debug.Build.0 = Debug|.NET
+		{73FC7D77-7D9C-4845-AD83-0BD0C4A9AAAB}.Release.ActiveCfg = Release|.NET
+		{73FC7D77-7D9C-4845-AD83-0BD0C4A9AAAB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
